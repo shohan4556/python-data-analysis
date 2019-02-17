@@ -49,13 +49,13 @@ for i in range(20):
 
 #plt.hist(datalist, dbin, edgecolor='white', linewidth = 1)
 #plt.plot(datalist)
-plt.scatter(datalist, [500,400,300,200,100])
+plt.scatter(datalist, [100,80,60,40,20])
 
-plt.xlabel('operators in BD')
-plt.ylabel('People Range')
+plt.xlabel('Use Sim Operator')
+plt.ylabel('Number of User')
 plt.grid(True)
 
-testY = [500,400,300,200,100]
+testY = [100,80,60,40,20]
 text = ['gp','robi','banglalink','teletalk','airtel']
 
 for x, valX in enumerate(datalist):
