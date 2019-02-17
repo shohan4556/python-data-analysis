@@ -32,7 +32,6 @@ for n in phone:
     # some number stars from 88 exclude them
     # print(value[1])
 
-
 datalist = [gp, robi, banglalik, teletalk, airtel]
 print(datalist)
 
